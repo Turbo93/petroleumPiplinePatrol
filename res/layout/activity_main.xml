@@ -8,9 +8,42 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
+    <LinearLayout
+        android:id="@+id/ll_start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp" >
+
+        <ImageButton
+            android:id="@+id/ibt_camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher"
+            android:background="#00000000" />
+
+        <ImageButton
+            android:id="@+id/ibt_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_map"
+            android:background="#00000000" />
+
+        <ImageButton
+            android:id="@+id/ibt_imageprocessing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_imageprocessing" 
+            android:background="#00000000"/>
+
+        <ImageButton
+            android:id="@+id/ibt_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:src="@drawable/ic_setings" />
+
+    </LinearLayout>
 
 </RelativeLayout>
