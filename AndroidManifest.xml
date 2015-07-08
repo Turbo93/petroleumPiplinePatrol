@@ -14,13 +14,33 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.etc.syww.petroleumPiplinePatrol.MainActivity.MainActivity"
+            android:name="team.syww.petroleumPiplinePatrol.MainActivity.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name="team.syww.petroleumPiplinePatrol.Camera.CameraScreen"
+            android:label="@string/title_activity_camera_screen" >
+        </activity>
+        <activity
+            android:name="team.syww.petroleumPiplinePatrol.Camera.CameraScreenActivity"
+            android:label="@string/title_activity_camera_screen" >
+        </activity>
+        <activity
+            android:name="team.syww.petroleumPiplinePatrol.Map.MapClothActivity"
+            android:label="@string/title_activity_map_cloth" >
+        </activity>
+        <activity
+            android:name="team.syww.petroleumPiplinePatrol.Settings.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
+        <activity
+            android:name="team.syww.petroleumPiplinePatrol.ImageProcessing.ImageProcessingActivity"
+            android:label="@string/title_activity_image_processing" >
         </activity>
     </application>
 

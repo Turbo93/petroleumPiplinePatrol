@@ -48,7 +48,7 @@ public final class R {
 		public static final int nlight = 0x7f070001;
 	}
 	public static final class layout {
-		public static final int log_dialog_view = 0x7f030001;
+		public static final int log_dialog_view = 0x7f030005;
 	}
 	public static final class raw {
 		public static final int dark_1080p25 = 0x7f060000;

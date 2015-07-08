@@ -81,11 +81,19 @@ public final class R {
         public static final int nlight=0x7f070001;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int log_dialog_view=0x7f030001;
+        public static final int activity_camera_screen=0x7f030000;
+        public static final int activity_image_processing=0x7f030001;
+        public static final int activity_main=0x7f030002;
+        public static final int activity_map_cloth=0x7f030003;
+        public static final int activity_settings=0x7f030004;
+        public static final int log_dialog_view=0x7f030005;
     }
     public static final class menu {
-        public static final int main=0x7f0c0000;
+        public static final int camera_screen=0x7f0c0000;
+        public static final int image_processing=0x7f0c0001;
+        public static final int main=0x7f0c0002;
+        public static final int map_cloth=0x7f0c0003;
+        public static final int settings=0x7f0c0004;
     }
     public static final class raw {
         public static final int dark_1080p25=0x7f060000;
@@ -168,6 +176,10 @@ public final class R {
         public static final int action_settings=0x7f090045;
         public static final int app_name=0x7f090044;
         public static final int hello_world=0x7f090046;
+        public static final int title_activity_camera_screen=0x7f090047;
+        public static final int title_activity_image_processing=0x7f09004a;
+        public static final int title_activity_map_cloth=0x7f090048;
+        public static final int title_activity_settings=0x7f090049;
     }
     public static final class style {
         /** 

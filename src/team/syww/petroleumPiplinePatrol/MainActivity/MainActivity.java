@@ -1,9 +1,11 @@
-package com.etc.syww.petroleumPiplinePatrol.MainActivity;
+package team.syww.petroleumPiplinePatrol.MainActivity;
+
+import team.syww.petroleumPiplinePatrol.Camera.CameraScreenActivity;
+import team.syww.petroleumPiplinePatrol.ImageProcessing.ImageProcessingActivity;
+import team.syww.petroleumPiplinePatrol.Map.MapClothActivity;
+import team.syww.petroleumPiplinePatrol.Settings.SettingsActivity;
 
 import com.etc.syww.petroleumPiplinePatrol.R;
-import com.etc.syww.petroleumPiplinePatrol.Camera.CameraScreen;
-import com.etc.syww.petroleumPiplinePatrol.Map.MapCloth;
-import com.etc.syww.petroleumPiplinePatrol.Settings.Settings;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -28,7 +30,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent();
-				intent.setClass(MainActivity.this, CameraScreen.class);
+				intent.setClass(MainActivity.this, CameraScreenActivity.class);
 				startActivity(intent);
 				finish();
 			}});
@@ -37,7 +39,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent();
-				intent.setClass(MainActivity.this, MapCloth.class);
+				intent.setClass(MainActivity.this, MapClothActivity.class);
 				startActivity(intent);
 				finish();
 			}});
@@ -45,15 +47,17 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, ImageProcessingActivity.class);
+				startActivity(intent);
+				finish();
 			}});
 		ibt_settings.setOnClickListener(new OnClickListener(){
 
 			@Override
 			public void onClick(View v) {
 				Intent intent = new Intent();
-				intent.setClass(MainActivity.this, Settings.class);
+				intent.setClass(MainActivity.this, SettingsActivity.class);
 				startActivity(intent);
 				finish();
 			}});
