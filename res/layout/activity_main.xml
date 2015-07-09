@@ -8,41 +8,102 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
+    
+
     <LinearLayout
-        android:id="@+id/ll_start"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="30dp" >
+        >
 
-        <ImageButton
-            android:id="@+id/ibt_camera"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_launcher"
-            android:background="#00000000" />
+            android:layout_weight="1"
+            android:orientation="vertical" >
 
-        <ImageButton
-            android:id="@+id/ibt_map"
+            <ImageButton
+                android:id="@+id/ibt_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_action_camera" />
+
+            <TextView
+                android:id="@+id/txt_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="相机" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_map"
-            android:background="#00000000" />
+            android:layout_weight="1"
+            android:orientation="vertical" >
 
-        <ImageButton
-            android:id="@+id/ibt_imageprocessing"
+            <ImageButton
+                android:id="@+id/ibt_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:src="@drawable/ic_action_map" 
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/txt_map"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="地图" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/ic_imageprocessing" 
-            android:background="#00000000"/>
+            android:layout_weight="1"
+            android:orientation="vertical" >
 
-        <ImageButton
-            android:id="@+id/ibt_settings"
+            <ImageButton
+                android:id="@+id/ibt_imageprocessing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:src="@drawable/ic_action_imageprocessing"
+                android:layout_gravity="center" />
+
+            <TextView
+                android:id="@+id/txt_imageprocessing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="图片" />
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#00000000"
-            android:src="@drawable/ic_setings" />
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/ibt_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#00000000"
+                android:src="@drawable/ic_action_settings" />
+
+            <TextView
+                android:id="@+id/txt_settings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="设置" />
+        </LinearLayout>
 
     </LinearLayout>
 

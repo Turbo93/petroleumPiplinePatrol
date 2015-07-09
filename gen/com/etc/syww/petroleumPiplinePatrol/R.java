@@ -40,7 +40,17 @@ public final class R {
         public static final int djiTextFace=0x7f010000;
     }
     public static final class color {
+        public static final int black_overlay=0x7f080001;
+        public static final int blue=0x7f080005;
+        public static final int button_normal=0x7f080006;
+        public static final int button_press=0x7f080007;
+        public static final int dark=0x7f080003;
+        public static final int gray=0x7f080009;
         public static final int midware_white_half=0x7f080000;
+        public static final int red=0x7f080004;
+        public static final int title_dark=0x7f08000a;
+        public static final int white=0x7f080002;
+        public static final int window_bg=0x7f080008;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -56,29 +66,59 @@ public final class R {
         public static final int btn_lock_selector=0x7f020000;
         public static final int btn_radio_selector=0x7f020001;
         public static final int btn_zoom_selector=0x7f020002;
-        public static final int ic_imageprocessing=0x7f020003;
-        public static final int ic_launcher=0x7f020004;
-        public static final int ic_map=0x7f020005;
-        public static final int ic_setings=0x7f020006;
-        public static final int radio_checked=0x7f020007;
-        public static final int radio_unchecked=0x7f020008;
+        public static final int ic_action_battery=0x7f020003;
+        public static final int ic_action_camera=0x7f020004;
+        public static final int ic_action_camerabt=0x7f020005;
+        public static final int ic_action_imageprocessing=0x7f020006;
+        public static final int ic_action_location=0x7f020007;
+        public static final int ic_action_map=0x7f020008;
+        public static final int ic_action_onekeytakeoff=0x7f020009;
+        public static final int ic_action_onekeytoreturn=0x7f02000a;
+        public static final int ic_action_return=0x7f02000b;
+        public static final int ic_action_settings=0x7f02000c;
+        public static final int ic_action_shoot=0x7f02000d;
+        public static final int ic_action_wifi=0x7f02000e;
+        public static final int ic_imageprocessing=0x7f02000f;
+        public static final int ic_launcher=0x7f020010;
+        public static final int ic_map=0x7f020011;
+        public static final int ic_menu_name=0x7f020012;
+        public static final int ic_setings=0x7f020013;
+        public static final int ic_stat_name=0x7f020014;
+        public static final int ic_tab_name_selected=0x7f020015;
+        public static final int ic_tab_name_unselected=0x7f020016;
+        public static final int radio_checked=0x7f020017;
+        public static final int radio_unchecked=0x7f020018;
     }
     public static final class id {
-        public static final int action_settings=0x7f07000e;
+        public static final int DjiSurfaceView_02=0x7f070006;
+        public static final int action_settings=0x7f07001c;
         public static final int bold=0x7f070003;
         public static final int demi=0x7f070000;
-        public static final int ibt_camera=0x7f070005;
-        public static final int ibt_imageprocessing=0x7f070007;
-        public static final int ibt_map=0x7f070006;
-        public static final int ibt_settings=0x7f070008;
-        public static final int ll_start=0x7f070004;
-        public static final int log_dlg_content=0x7f07000c;
-        public static final int log_dlg_control=0x7f070009;
-        public static final int log_dlg_lock=0x7f07000a;
-        public static final int log_dlg_rg=0x7f07000d;
-        public static final int log_dlg_scroll=0x7f07000b;
+        public static final int ibt_autocamera=0x7f070007;
+        public static final int ibt_battery=0x7f07000d;
+        public static final int ibt_camera=0x7f07000f;
+        public static final int ibt_imageprocessing=0x7f070013;
+        public static final int ibt_location=0x7f07000a;
+        public static final int ibt_map=0x7f070011;
+        public static final int ibt_onekeytakeoff=0x7f070009;
+        public static final int ibt_onekeytoreturn=0x7f07000b;
+        public static final int ibt_return=0x7f07000c;
+        public static final int ibt_settings=0x7f070015;
+        public static final int ibt_shoot=0x7f070008;
+        public static final int ibt_wifi=0x7f07000e;
+        public static final int log_dlg_content=0x7f07001a;
+        public static final int log_dlg_control=0x7f070017;
+        public static final int log_dlg_lock=0x7f070018;
+        public static final int log_dlg_rg=0x7f07001b;
+        public static final int log_dlg_scroll=0x7f070019;
         public static final int nbold=0x7f070002;
         public static final int nlight=0x7f070001;
+        public static final int rl_view=0x7f070004;
+        public static final int surfaceView_Rl_02=0x7f070005;
+        public static final int txt_camera=0x7f070010;
+        public static final int txt_imageprocessing=0x7f070014;
+        public static final int txt_map=0x7f070012;
+        public static final int txt_settings=0x7f070016;
     }
     public static final class layout {
         public static final int activity_camera_screen=0x7f030000;
