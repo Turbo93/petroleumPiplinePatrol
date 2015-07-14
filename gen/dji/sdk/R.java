@@ -30,20 +30,20 @@ public final class R {
 		public static final int midware_white_half = 0x7f080000;
 	}
 	public static final class drawable {
-		public static final int btn_lock_selector = 0x7f020000;
-		public static final int btn_radio_selector = 0x7f020001;
-		public static final int btn_zoom_selector = 0x7f020002;
-		public static final int radio_checked = 0x7f020017;
-		public static final int radio_unchecked = 0x7f020018;
+		public static final int btn_lock_selector = 0x7f020004;
+		public static final int btn_radio_selector = 0x7f020005;
+		public static final int btn_zoom_selector = 0x7f020006;
+		public static final int radio_checked = 0x7f02001e;
+		public static final int radio_unchecked = 0x7f02001f;
 	}
 	public static final class id {
 		public static final int bold = 0x7f070003;
 		public static final int demi = 0x7f070000;
-		public static final int log_dlg_content = 0x7f07001a;
-		public static final int log_dlg_control = 0x7f070017;
-		public static final int log_dlg_lock = 0x7f070018;
-		public static final int log_dlg_rg = 0x7f07001b;
-		public static final int log_dlg_scroll = 0x7f070019;
+		public static final int log_dlg_content = 0x7f070024;
+		public static final int log_dlg_control = 0x7f070021;
+		public static final int log_dlg_lock = 0x7f070022;
+		public static final int log_dlg_rg = 0x7f070025;
+		public static final int log_dlg_scroll = 0x7f070023;
 		public static final int nbold = 0x7f070002;
 		public static final int nlight = 0x7f070001;
 	}

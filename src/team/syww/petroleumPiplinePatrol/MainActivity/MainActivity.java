@@ -17,6 +17,7 @@ import android.view.WindowManager;
 import android.view.View.OnClickListener;
 import android.view.Window;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 public class MainActivity extends Activity {
 
@@ -32,6 +33,10 @@ public class MainActivity extends Activity {
 		ibt_map = (ImageButton) findViewById(R.id.ibt_map);
 		ibt_imageprocessing = (ImageButton) findViewById(R.id.ibt_imageprocessing);
 		ibt_settings = (ImageButton) findViewById(R.id.ibt_settings);
+		txt_camera = (TextView) findViewById(R.id.txt_camera);
+		txt_map = (TextView) findViewById(R.id.txt_map);
+		txt_imageprocessing = (TextView) findViewById(R.id.txt_imageprocessing);
+		txt_settings = (TextView) findViewById(R.id.txt_settings);
 		ibt_camera.setOnClickListener(new OnClickListener() {
 
 			@Override
@@ -73,19 +78,56 @@ public class MainActivity extends Activity {
 				finish();
 			}
 		});
-	}
+		txt_camera.setOnClickListener(new OnClickListener() {
 
-	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		System.out.println("aaaaaaaa");
-		return true;
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, CameraScreenActivity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		txt_map.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, MapClothActivity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		txt_imageprocessing.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this,
+						ImageProcessingActivity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
+		txt_settings.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent();
+				intent.setClass(MainActivity.this, SettingsActivity.class);
+				startActivity(intent);
+				finish();
+			}
+		});
 	}
 
 	private ImageButton ibt_camera;
 	private ImageButton ibt_map;
 	private ImageButton ibt_imageprocessing;
 	private ImageButton ibt_settings;
+	private TextView txt_camera;
+	private TextView txt_map;
+	private TextView txt_imageprocessing;
+	private TextView txt_settings;
 
 }

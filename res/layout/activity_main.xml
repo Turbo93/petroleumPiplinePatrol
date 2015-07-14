@@ -2,20 +2,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background_2"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    
-
     <LinearLayout
+        android:id="@+id/linearLayout1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true" 
         android:layout_alignParentBottom="true"
-        >
+        android:layout_centerHorizontal="true" >
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -36,7 +35,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="相机" />
+                android:text="相机" 
+                android:textColor="@color/white"/>
         </LinearLayout>
 
         <LinearLayout
@@ -49,16 +49,17 @@
                 android:id="@+id/ibt_map"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="#00000000"
-                android:src="@drawable/ic_action_map" 
-                android:layout_gravity="center"/>
+                android:src="@drawable/ic_action_map" />
 
             <TextView
                 android:id="@+id/txt_map"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="地图" />
+                android:text="地图" 
+                android:textColor="@color/white"/>
         </LinearLayout>
 
         <LinearLayout
@@ -71,16 +72,17 @@
                 android:id="@+id/ibt_imageprocessing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:background="#00000000"
-                android:src="@drawable/ic_action_imageprocessing"
-                android:layout_gravity="center" />
+                android:src="@drawable/ic_action_imageprocessing" />
 
             <TextView
                 android:id="@+id/txt_imageprocessing"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="图片" />
+                android:text="图片" 
+                android:textColor="@color/white"/>
         </LinearLayout>
 
         <LinearLayout
@@ -102,9 +104,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:text="设置" />
+                android:text="设置" 
+                android:textColor="@color/white"/>
         </LinearLayout>
-
     </LinearLayout>
 
 </RelativeLayout>
